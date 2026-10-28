@@ -123,8 +123,8 @@ const Projects = () => {
                   to={`/projects/${project.id}`}
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-400 hover:text-blue-300 transition"
                 >
-                  <span>Details &amp; Tech</span>
-                  <HiArrowRight className="text-sm group-hover:translate-x-1 transition-transform" />
+                  {/* <span>Details &amp; Tech</span> */}
+                  {/* <HiArrowRight className="text-sm group-hover:translate-x-1 transition-transform" /> */}
                 </Link>
 
                 <div className="flex items-center gap-2">
